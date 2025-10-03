@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="escrupolo_slambook.css">
+    <title>Slambook!</title>
+</head>
+<body>
+    <form>
+            <label>Name:
+            <input type = "text" name="name" placeholder="Last Name, Full Name">
+        </label><br>
+        <label>Contact Number:
+            <input type = "tel" name="contact-info" placeholder="#09*********">
+        </label><br>
+        <label>Facebook Link:
+            <input type = "url" name="facebook-url" placeholder="https://facebook.com">
+        </label><br>
+        <label>Search:
+            <input type = "search" name="search-anything" placeholder="Type Here">
+        </label><br>
+        <label>Favorite Number
+            <input type = "number" name="favorite-number" placeholder="Select here">
+        </label><br>
+        <label>Motto:
+            <textarea name = "comment" rows="3"></textarea>
+        </label>
+
+    <h1>Preferred Snack:</h1>
+    <fieldset>
+        <legend>Which snack do you enjoy the most?</legend>
+        <label>
+            <input type="checkbox" name="snacks" value="1">Chips
+        </label><br>
+        <label>
+            <input type="checkbox" name="snacks" value="1">Chocolate
+        </label><br>
+        <label>
+            <input type="checkbox" name="snacks" value="1">Fruits
+        </label><br>
+        <label>
+            <input type="checkbox" name="snacks" value="1">Cookies
+        </label><br>
+    </fieldset>
+</body>
+<body>
+    <h1>Dream Vacation:</h1>
+    <fieldset>
+        <legend>if you could go anywhere for a vacation, where whould you choose?</legend>
+        <input type="radio" id="Beach" name="vacation" value="Beach">
+        <label for="Beach">Beach</label><br>
+         <input type="radio" id="Mountain" name="vacation" value="Mountain">
+        <label for="Mountain">Mountain</label><br>
+         <input type="radio" id="City" name="vacation" value="City">
+        <label for="City">City</label><br>
+         <input type="radio" id="Countryside" name="vacation" value="Countryside">
+        <label for="Countryside">Countryside</label><br>
+    </fieldset>
+</body>
+<body>
+    <h1>Preferred Music Genre:</h1>
+    <fieldset>
+        <div>
+            <label for="music">What type of music do you listen to the most?</label><br>
+            <select name="music" id="music">
+                <option value="Pop">Pop</option>
+                <option value="Rock">Rock</option>
+                <option value="Hip-Hop">Hip-Hop</option>
+                <option value="Classical">Classical</option>
+            </select>
+        </div>
+        </fieldset>
+</body>
+        <fieldset>
+        <button type = "submit">SUBMIT</button>
+        <button type = "reset">RESET</button>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,15 @@
+body {
+    width: 300px;
+    margin-right: 800px;
+    margin-left: 800px;
+    margin-bottom: 800px;
+    margin-top: 800px;
+    padding-top: 10px;
+    background-color: rgb(137, 211, 143);
+    border-style: solid;
+    border-radius: 50px;
+}
+form {
+    background-color: azure;
+    font-family: monospace;
+}
